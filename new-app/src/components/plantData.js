@@ -6,7 +6,8 @@ const plantData = [
         type: "Bonsai",
         water: "Water thoroughly when top soil becomes slightly dry, lightly mist daily",
         light: "4-5 hours of direct light",
-        temperature: "Consistantly 60F or higher and humid. Can tolerate dryer climates as well"
+        temperature: "Consistantly 60F or higher and humid. Can tolerate dryer climates as well",
+        image: "../../public/images/bonsai.png"
     },
     {
         id: 2,
@@ -14,7 +15,8 @@ const plantData = [
         type: "Succulant",
         water: "Allow to completely dry between waterings",
         light: "Minimum of 6 of indirect light",
-        temperature: "B"
+        temperature: "B",
+        image: "../../public/images/whitefoxaloe.png"
     },
     {
         id: 3,
@@ -22,7 +24,8 @@ const plantData = [
         type: "Lavendar",
         water: "Every 2-3 weeks",
         light: "Direct, intense light",
-        temperature: "Does not handle frost, snow or freezing temperatures"
+        temperature: "Does not handle frost, snow or freezing temperatures",
+        image: "../../public/images/lavender.png"
     },
     {
         id: 4,
@@ -30,7 +33,8 @@ const plantData = [
         type: "Tree",
         water: "Keep soil consistanly moist",
         light: "At least 6 hours of direct light",
-        temperature: "Between 75F-95F"
+        temperature: "Between 75F-95F",
+        image: "../../public/images/banana.png"
     },
     {
         id: 5,
@@ -38,7 +42,8 @@ const plantData = [
         type: "Succulant",
         water: "Once a week in warm climates, can go weeks between waterings",
         light: "At least 6 hours of direct light",
-        temperature: "65F-75F"
+        temperature: "65F-75F",
+        image: "../../public/images/hens&chicks.png"
     },
     {
         id: 6,
@@ -46,7 +51,8 @@ const plantData = [
         type: "Ivy",
         water: "Once weekly if top 1 inch of soil is dry, every other week during winter",
         light: "Partial sun/shade",
-        temperature: "50F-85F"
+        temperature: "50F-85F",
+        image: "../../public/images/wanderingjew.png"
     },
     {
         id: 7,
@@ -54,7 +60,8 @@ const plantData = [
         type: "Microgreen",
         water: "Water when soil is dry but not parched",
         light: "Full sun, can flower more if in partial shade",
-        temperature: "Good with hot"
+        temperature: "Good with hot",
+        image: "../../public/images/purslane.png"
     },
     {
         id: 8,
@@ -62,7 +69,8 @@ const plantData = [
         type: "Mint",
         water: "Err on side of underwatering, small amounts",
         light: "5-6 hours of direct light, rotate to avoid sunburn",
-        temperature: "Avoid overly cool and overly hot temperatures"
+        temperature: "Avoid overly cool and overly hot temperatures",
+        image: "../../public/images/lemonbalm.png"
     },
     {
         id: 9,
@@ -70,7 +78,8 @@ const plantData = [
         type: "Mint",
         water: "Err on side of underwatering, small amounts",
         light: "5-6 hours of direct light, rotate to avoid sunburn",
-        temperature: "Avoid overly cool and overly hot temperatures"
+        temperature: "Avoid overly cool and overly hot temperatures",
+        image: "../../public/images/catnip.png"
     },
     {
         id: 10,
@@ -78,7 +87,8 @@ const plantData = [
         type: "Mint",
         water: "Almost dry between waterings, then soak thoroughly",
         light: "Full light to partial shade",
-        temperature: "Does not tolerate cold"
+        temperature: "Does not tolerate cold",
+        image: "../../public/images/spearmint.png"
     },
     {
         id: 11,
@@ -86,7 +96,8 @@ const plantData = [
         type: "Herb",
         water: "Water when top couple inches are dry, keep moist but not soggy",
         light: "At least 6 hours of direct sun, does not tolerate shade",
-        temperature: "30F-80F"
+        temperature: "30F-80F",
+        image: "../../public/images/rosemary.png"
     },
 ]
 
