@@ -1,5 +1,5 @@
 const plantData = [
-    
+
     {
         id: 1,
         name: "Ficus Ginseng Bonsai",

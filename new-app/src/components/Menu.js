@@ -1,7 +1,19 @@
+import PlantPage from "./plantPage";
+import Submit from "./script";
+import App from "../App";
+
+function handleClick(){
+    let form = document.getElementById("option");
+    return(
+        alert("farts")
+        // <App />
+    )
+}
+
 function Menu() {
     return (
         <div>
-            <form>
+            <form method="" onSubmit={handleClick}>
                 <label>
                     <select name="plants">
                         <option value="">Pick your plant</option>
