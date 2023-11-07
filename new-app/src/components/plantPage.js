@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import plantData from "./plantData";
 
 const PlantPage = ({ plant }) => {
     {

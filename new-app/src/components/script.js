@@ -12,11 +12,12 @@ window.addEventListener("load", function () {
             event.preventDefault();
         } else {
             alert("submit works");
-            // return(
-            //     <div>
-            //     <PlantPage />
-            //     </div>
-            // )
+            return(
+                <div>
+            <App />
+                <PlantPage />
+                </div>
+            )
         }
 
     });

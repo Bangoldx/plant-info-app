@@ -1,19 +1,26 @@
 import PlantPage from "./plantPage";
 import Submit from "./script";
 import App from "../App";
+import plantData from "./plantData";
+import { useState } from "react";
 
-function handleClick(){
-    let form = document.getElementById("option");
-    return(
-        alert("farts")
-        // <App />
-    )
+function HandleClick(){
+    let form = document.getElementById("plants");
+    const [plant, setPlant] = useState(plantData);
+  const displayPlants = [...new Set(plantData.map((data) => data.id))];
+
+  const filterByType = (currentType) => {
+    const displayPlants = plantData.filter((newPlantDisplay) => {
+      return newPlantDisplay.data === currentType;
+    });
+    setPlant(displayPlants);
+  }
 }
 
 function Menu() {
     return (
         <div>
-            <form method="" onSubmit={handleClick}>
+            <form method="" onSubmit={HandleClick}>
                 <label>
                     <select name="plants">
                         <option value="">Pick your plant</option>
@@ -36,4 +43,5 @@ function Menu() {
         </div>
     )
 }
+console.log(Menu.value);
 export default Menu;

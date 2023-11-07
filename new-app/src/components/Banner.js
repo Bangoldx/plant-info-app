@@ -6,6 +6,7 @@ function Banner(){
         <div>
             <h1>Plant App Name</h1>
         </div>
+        
     )
 }
 export default Banner;
